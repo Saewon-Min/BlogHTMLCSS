@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H01Form01.html</title>
+</head>
+<body>
+    <h3>GET 방식</h3>
+    <!-- form 폴더의 request_form.jsp 파일 -->
+    <form action="./form/request_form.jsp" method="GET">
+        <!-- text방식 -->
+        아이디 : <input type="text" name="user_id"><br>
+        <!-- password방식 -->
+        패스워드 : <input type="password" name="user_pwd"><br>
+        <!-- submit방식 : 버튼속성 -->
+        <input type="submit" value="전송">
+    </form>
+
+    <h3>POST 방식</h3>
+    <form action="./form/request_form.jsp" method="POST">
+        아이디 : <input type="text" name="user_id"><br>
+        패스워드 : <input type="password" name="user_pwd"><br>
+        <input type="submit" value="전송">
+    </form>
+
+</body>
+</html>
